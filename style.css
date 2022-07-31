@@ -1,7 +1,7 @@
 body {
     font-family: Calibri;
     color: white;
-    background: black;
+    background: rgb(11, 11, 32);
 }
 
 .header {
@@ -35,9 +35,21 @@ h1 {
     background: rgba(252, 34, 136, 0.589);
     border: 1px solid white;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 .About_Me {
+    text-align: center;
+    display: table-row;
+}
+
+#heading {
+    background-color: rgb(80, 8, 87);
+    border-radius: 10px;
+}
+
+.para {
     text-align: center;
 }
 
